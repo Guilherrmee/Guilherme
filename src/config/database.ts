@@ -1,4 +1,4 @@
-import { Pool } from "pg";
+import { Pool } from "pg"; 
 
 // Substitua pela sua string de conexão do Render.com
 const connectionString =

@@ -18,3 +18,5 @@ const createUsersTable = async () => {
     client.release();
   }
 };
+
+createUsersTable().then(() => process.exit(0));
