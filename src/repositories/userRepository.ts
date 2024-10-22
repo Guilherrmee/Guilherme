@@ -11,7 +11,11 @@ export class UserRepository {
 
   // Método para buscar todos os usuários
   async getAllUsers(): Promise<User[]> {
+<<<<<<< HEAD
     const { rows } = await this.pool.query("SELECT * FROM users");
+=======
+    const { rows } = await this.pool.query("SELECT id, name, email FROM users");
+>>>>>>> refs/remotes/origin/main
     return rows;
   }
 
